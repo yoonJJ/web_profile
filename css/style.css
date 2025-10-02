@@ -99,12 +99,12 @@ section {padding: 100px 0;}
 
 .contact {background-color: #f8f9fa; padding: 60px 0;}
 .contact-content {max-width: 800px; margin: 0 auto; text-align: center;}
-.contact-content > p {font-size: 1.2rem; margin-bottom: 40px; color: #333;}
-.email-display {display: flex; justify-content: center; flex-wrap: nowrap; gap: 2px; margin-bottom: 40px; max-width: 500px; margin-left: auto; margin-right: auto;}
-.email-char {font-size: 1.1rem; font-weight: 400; padding: 6px 4px; background: white; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); transition: all 0.3s ease; cursor: pointer; min-width: 24px; text-align: center;}
+.contact-content > p {font-size: 1.2rem; margin-bottom: 50px; color: #333;}
+.email-display {display: flex; justify-content: center; flex-wrap: wrap; gap: 3px; margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto;}
+.email-char {font-size: 1.1rem; font-weight: 400; padding: 8px 6px; background: white; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: all 0.3s ease; cursor: pointer; min-width: 28px; text-align: center;}
 .email-char:hover {transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: #667eea; color: white;}
-.contact-description {margin-bottom: 40px;}
-.contact-description p {font-size: 1rem; margin-bottom: 20px; line-height: 1.8; color: #666;}
+.contact-description {margin-bottom: 50px;}
+.contact-description p {font-size: 1rem; margin-bottom: 25px; line-height: 1.8; color: #666;}
 .contact-button {background: #667eea; color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 1rem; cursor: pointer; transition: all 0.3s ease;}
 .contact-button:hover {background: #5a6fd8; transform: translateY(-2px);}
 
@@ -118,7 +118,7 @@ section {padding: 100px 0;}
     }
     
     .main-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     
     .section-header h2 {
@@ -155,14 +155,14 @@ section {padding: 100px 0;}
     }
     
     .email-display {
-        gap: 1px;
-        max-width: 400px;
+        gap: 2px;
+        max-width: 450px;
     }
     
     .email-char {
         font-size: 1rem;
-        padding: 4px 3px;
-        min-width: 20px;
+        padding: 6px 4px;
+        min-width: 24px;
     }
     
     .intro-header h3 {
@@ -187,7 +187,7 @@ section {padding: 100px 0;}
 
 @media (max-width: 480px) {
     .main-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .section-header h2 {
@@ -200,8 +200,8 @@ section {padding: 100px 0;}
     
     .email-char {
         font-size: 0.9rem;
-        padding: 3px 2px;
-        min-width: 18px;
+        padding: 5px 3px;
+        min-width: 22px;
     }
     
 }
