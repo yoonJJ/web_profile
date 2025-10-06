@@ -268,4 +268,20 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 150);
         });
     });
+    
+    // Contact-me button functionality (About section)
+    const contactMeButton = document.querySelector('.contact-me');
+    if (contactMeButton) {
+        contactMeButton.addEventListener('click', function() {
+            window.location.href = 'tel:01033445539';
+        });
+    }
+    
+    // Contact button functionality (Contact section)
+    const contactButton = document.querySelector('.contact-button');
+    if (contactButton) {
+        contactButton.addEventListener('click', function() {
+            window.location.href = 'mailto:yoon.jj5539@gmail.com';
+        });
+    }
 });
