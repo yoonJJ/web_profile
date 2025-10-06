@@ -101,33 +101,186 @@
     <section class="work" id="work">
         <div class="container">
             <div class="section-header">
-                <h2>Project</h2>
+                <h2>Projects</h2>
             </div>
-            <div class="work-timeline">
-                <div class="work-item">
-                    <div class="work-title">project01</div>
-                    <div class="work-details">
-                        <span class="year">작업한 기간: 23-22</span>
-                        <span class="tech">관련 기술: React TypeScript</span>
-                        <span class="project-link"><a href="#" target="_blank">링크</a></span>
-                    </div>
-                </div>
-
-                <div class="work-item">
-                    <div class="work-title">project02</div>
-                    <div class="work-details">
-                        <span class="year">작업한 기간: 23-22</span>
-                        <span class="tech">관련 기술: React TypeScript</span>
-                        <span class="project-link"><a href="#" target="_blank">링크</a></span>
-                    </div>
+            
+            <div class="project-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="frontend">Frontend</button>
+                    <button class="tab-btn" data-tab="backend">Backend</button>
+                    <button class="tab-btn" data-tab="fullstack">Fullstack</button>
                 </div>
                 
-                <div class="work-item ongoing">
-                    <div class="work-title">project03</div>
-                    <div class="work-details">
-                        <span class="year">작업한 기간: 23</span>
-                        <span class="tech">관련 기술: Next.js UX Design</span>
-                        <span class="status">Ongoing</span>
+                <div class="tab-content">
+                    <!-- Frontend Projects -->
+                    <div class="tab-panel active" id="frontend">
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>Portfolio Website</h3>
+                                    <div class="project-badge">React</div>
+                                </div>
+                                <p class="project-description">개인 포트폴리오 웹사이트로 React와 TypeScript를 사용하여 제작했습니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">CSS3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/portfolio" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>Portfolio Website</h3>
+                                    <div class="project-badge">React</div>
+                                </div>
+                                <p class="project-description">개인 포트폴리오 웹사이트로 React와 TypeScript를 사용하여 제작했습니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">CSS3</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/portfolio" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend Projects -->
+                    <div class="tab-panel" id="backend">
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>TodoList</h3>
+                                    <div class="project-badge">Spring Boot</div>
+                                </div>
+                                <p class="project-description">Spring Boot와 JdbcTemplate, H2 인메모리 DB를 사용한 CRUD 기능이 구현된 할일 관리 웹 애플리케이션입니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Java 21</span>
+                                    <span class="tech-tag">Spring Boot 3.5.x</span>
+                                    <span class="tech-tag">JdbcTemplate</span>
+                                    <span class="tech-tag">H2 Database</span>
+                                    <span class="tech-tag">Thymeleaf</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/todoList" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>REST API Server</h3>
+                                    <div class="project-badge">Spring Boot</div>
+                                </div>
+                                <p class="project-description">Spring Boot와 JPA를 사용한 RESTful API 서버입니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Spring Boot</span>
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">JPA</span>
+                                    <span class="tech-tag">MySQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/rest-api" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> API Docs
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>Authentication Service</h3>
+                                    <div class="project-badge">Node.js</div>
+                                </div>
+                                <p class="project-description">JWT 기반 인증 시스템을 구현한 Node.js 서비스입니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">JWT</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/auth-service" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> API Docs
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fullstack Projects -->
+                    <div class="tab-panel" id="fullstack">
+                        <div class="project-grid">
+                            <div class="project-card featured">
+                                <div class="project-header">
+                                    <h3>my-app</h3>
+                                    <div class="project-badge">Full Stack</div>
+                                </div>
+                                <p class="project-description">React와 Spring Boot를 활용한 풀스택 웹 애플리케이션입니다. 프론트엔드와 백엔드를 모두 구현했습니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">Spring Boot</span>
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">MySQL</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/my-app" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="project-header">
+                                    <h3>E-commerce Platform</h3>
+                                    <div class="project-badge">MERN</div>
+                                </div>
+                                <p class="project-description">MongoDB, Express, React, Node.js를 사용한 전자상거래 플랫폼입니다.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">Express</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Stripe</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/yoonJJ/ecommerce" target="_blank" class="project-link">
+                                        <i class="icon-github"></i> GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="project-link">
+                                        <i class="icon-external"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

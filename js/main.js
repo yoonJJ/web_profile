@@ -216,3 +216,56 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, { passive: false });
 });
+
+// Project Tabs Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanels = document.querySelectorAll('.tab-panel');
+    
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetTab = this.getAttribute('data-tab');
+            
+            // Remove active class from all buttons and panels
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabPanels.forEach(panel => panel.classList.remove('active'));
+            
+            // Add active class to clicked button and corresponding panel
+            this.classList.add('active');
+            document.getElementById(targetTab).classList.add('active');
+            
+            // Add a subtle animation effect
+            const activePanel = document.getElementById(targetTab);
+            activePanel.style.opacity = '0';
+            activePanel.style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                activePanel.style.opacity = '1';
+                activePanel.style.transform = 'translateY(0)';
+            }, 50);
+        });
+    });
+    
+    // Add hover effects for project cards
+    const projectCards = document.querySelectorAll('.project-card');
+    projectCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-8px) scale(1.02)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+    
+    // Add click effects for tech tags
+    const techTags = document.querySelectorAll('.tech-tag');
+    techTags.forEach(tag => {
+        tag.addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 150);
+        });
+    });
+});
