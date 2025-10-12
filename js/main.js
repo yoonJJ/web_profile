@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', function() {
         typeWriter();
     }
     
-    // Add floating animation to scroll indicator
     const scrollArrow = document.querySelector('.scroll-arrow');
     if (scrollArrow) {
         setInterval(() => {
@@ -217,7 +216,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }, { passive: false });
 });
 
-// Project Tabs Functionality
 document.addEventListener('DOMContentLoaded', function() {
     const tabButtons = document.querySelectorAll('.tab-btn');
     const tabPanels = document.querySelectorAll('.tab-panel');
@@ -246,7 +244,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Add hover effects for project cards
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach(card => {
         card.addEventListener('mouseenter', function() {
@@ -258,7 +255,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Add click effects for tech tags
     const techTags = document.querySelectorAll('.tech-tag');
     techTags.forEach(tag => {
         tag.addEventListener('click', function() {
@@ -269,7 +265,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Contact-me button functionality (About section)
     const contactMeButton = document.querySelector('.contact-me');
     if (contactMeButton) {
         contactMeButton.addEventListener('click', function() {
@@ -277,7 +272,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Contact button functionality (Contact section)
     const contactButton = document.querySelector('.contact-button');
     if (contactButton) {
         contactButton.addEventListener('click', function() {
