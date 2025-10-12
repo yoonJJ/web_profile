@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const blogLinkBtn = document.querySelector('.blog-link');
     if (blogLinkBtn) {
         blogLinkBtn.addEventListener('click', function() {
-            alert('블로그로 이동하는 기능을 구현할 수 있습니다!');
+            alert('블로그 준비 중 입니다!');
         });
     }
     
