@@ -1,459 +1,490 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YoonJJ Web Profile</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoonJJ Web Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="email">[yoon.jj5539@gmail.com]</div>
-                <div class="availability">Available Now</div>
-                
-                <h1 class="main-title">
-                    <span class="name">yoon</span>: 생각하는 웹 개발자
-                </h1>
-                
-                <div class="subtitle">
-                    <strong>좋아하니까, 즐겁게</strong>
-                    <div class="logo">JOYoon</div>
-                </div>
-                
-                <p class="description">
-                    코드로 사용자 경험을 설계하는 웹 개발자입니다.<br>
-                    반응형 디자인과 웹 표준을 기반으로 성능 최적화된 인터페이스를 구현합니다.<br>
-                    최신 기술 스택을 학습하며 확장 가능한 웹 솔루션을 개발하고 있습니다.
-                </p>
-                
-                <div class="scroll-indicator">
-                    <span>Let's Scroll Down!</span>
-                    <div class="scroll-arrow">↓</div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="email">[yoon.jj5539@gmail.com]</div>
+        <div class="availability">Available Now</div>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About<span class="highlight">yoon</span></h2>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-image">
-                    <div class="profile-image">
-                        <img src="images/main_img01.jpeg" alt="Profile Image" />
-                        <div class="image-overlay"></div>
-                    </div>
-                </div>
-                
-                <div class="about-text">
-                    <div class="intro-header">
-                        <h3>안녕하세요!</h3>
-                        <h4>웹 개발자 윤정재입니다.</h4>
-                        <p class="nickname">a.k.a, yoon</p>
-                    </div>
-                    
-                    <p class="main-description">즐기면 더 잘한다는 마음으로 웹 개발을 하고 있습니다.</p>
-                    
-                    <div class="skills-section">
-                        <h4>주요 역량</h4>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>HTML/CSS/JS</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>React/Next.js</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>Spring Boot</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>Git 형상관리</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>Linux 서버 배포</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-icon"></span>
-                                <span>클라우드 인프라</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <p class="description">HTML, CSS, JavaScript로 웹 페이지를 만들고, React/Next.js로 컴포넌트 기반 개발을 하고 있어요. Spring Boot로 백엔드도 만들 수 있고, Git으로 형상관리도 합니다.</p>
-                    
-                    <p class="description">Linux 서버에 webApp배포도 할 수 있고, 클라우드 인프라 구축도 조금씩 배우고 있어요. 아직 배워야 할 게 많지만, 꾸준히 공부하면서 실력이 늘어가는 걸 느끼고 있어요.</p>
-                    
-                    <div class="action-buttons">
-                        <button class="read-more">자기소개 더보기</button>
-                        <button class="contact-me">연락하기</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <h1 class="main-title">
+          <span class="name">yoon</span>: 생각하는 웹 개발자
+        </h1>
 
-    <!-- Work Experience Section -->
-    <section class="work" id="work">
-        <div class="container">
-            <div class="section-header">
-                <h2>Projects</h2>
-            </div>
-            
-            <div class="project-tabs">
-                <div class="tab-buttons">
-                    <button class="tab-btn active" data-tab="frontend">Frontend</button>
-                    <button class="tab-btn" data-tab="backend">Backend</button>
-                    <button class="tab-btn" data-tab="fullstack">Fullstack</button>
-                </div>
-                
-                <div class="tab-content">
-                    <!-- Frontend Projects -->
-                    <div class="tab-panel active" id="frontend">
-                        <div class="project-grid">
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>Starbucks Clone</h3>
-                                    <div class="project-badge">HTML/CSS/JS</div>
-                                </div>
-                                <p class="project-description">스타벅스 공식 웹사이트를 HTML, CSS, JavaScript로 클론 코딩한 프로젝트입니다. 인터랙티브한 UI를 구현했습니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">HTML5</span>
-                                    <span class="tech-tag">CSS3</span>
-                                    <span class="tech-tag">JavaScript</span>
-                                    <span class="tech-tag">Responsive Design</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/starbucks" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="https://yoonjj.github.io/starbucks/" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Demo
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>Portfolio Website</h3>
-                                    <div class="project-badge">React</div>
-                                </div>
-                                <p class="project-description">개인 포트폴리오 웹사이트로 React와 TypeScript를 사용하여 제작했습니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">React</span>
-                                    <span class="tech-tag">TypeScript</span>
-                                    <span class="tech-tag">CSS3</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/portfolio" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Demo
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>GreenTrip</h3>
-                                    <div class="project-badge">퍼블리싱</div>
-                                </div>
-                                <p class="project-description">웹에이전시 근무 중 퍼블리싱 작업을 맡았습니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">HTML5</span>
-                                    <span class="tech-tag">CSS3</span>
-                                    <span class="tech-tag">JavaScript</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://greentrip.kr" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Site
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>HappyCity 2030</h3>
-                                    <div class="project-badge">퍼블리싱</div>
-                                </div>
-                                <p class="project-description">웹에이전시 근무 중 퍼블리싱 작업을 맡았습니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">HTML5</span>
-                                    <span class="tech-tag">CSS3</span>
-                                    <span class="tech-tag">JavaScript</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://happycity2030.co.kr" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Site
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Backend Projects -->
-                    <div class="tab-panel" id="backend">
-                        <div class="project-grid">
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>TodoList</h3>
-                                    <div class="project-badge">Spring Boot</div>
-                                </div>
-                                <p class="project-description">Spring Boot와 JdbcTemplate, H2 인메모리 DB를 사용한 CRUD 기능이 구현된 할일 관리 웹 애플리케이션입니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Java 21</span>
-                                    <span class="tech-tag">Spring Boot 3.5.x</span>
-                                    <span class="tech-tag">JdbcTemplate</span>
-                                    <span class="tech-tag">H2 Database</span>
-                                    <span class="tech-tag">Thymeleaf</span>
-                                    <span class="tech-tag">JavaScript</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/todoList" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Demo
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>REST API Server</h3>
-                                    <div class="project-badge">Spring Boot</div>
-                                </div>
-                                <p class="project-description">Spring Boot와 JPA를 사용한 RESTful API 서버입니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Spring Boot</span>
-                                    <span class="tech-tag">Java</span>
-                                    <span class="tech-tag">JPA</span>
-                                    <span class="tech-tag">MySQL</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/rest-api" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> API Docs
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>Authentication Service</h3>
-                                    <div class="project-badge">Node.js</div>
-                                </div>
-                                <p class="project-description">JWT 기반 인증 시스템을 구현한 Node.js 서비스입니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">Node.js</span>
-                                    <span class="tech-tag">Express</span>
-                                    <span class="tech-tag">JWT</span>
-                                    <span class="tech-tag">MongoDB</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/auth-service" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> API Docs
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Fullstack Projects -->
-                    <div class="tab-panel" id="fullstack">
-                        <div class="project-grid">
-                            <div class="project-card featured">
-                                <div class="project-header">
-                                    <h3>my-app</h3>
-                                    <div class="project-badge">Full Stack</div>
-                                </div>
-                                <p class="project-description">React와 Spring Boot를 활용한 풀스택 웹 애플리케이션입니다. 프론트엔드와 백엔드를 모두 구현했습니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">React</span>
-                                    <span class="tech-tag">TypeScript</span>
-                                    <span class="tech-tag">Spring Boot</span>
-                                    <span class="tech-tag">Java</span>
-                                    <span class="tech-tag">MySQL</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/my-app" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Demo
-                                    </a>
-                                </div>
-                            </div>
-                            
-                            <div class="project-card">
-                                <div class="project-header">
-                                    <h3>E-commerce Platform</h3>
-                                    <div class="project-badge">MERN</div>
-                                </div>
-                                <p class="project-description">MongoDB, Express, React, Node.js를 사용한 전자상거래 플랫폼입니다.</p>
-                                <div class="project-tech">
-                                    <span class="tech-tag">React</span>
-                                    <span class="tech-tag">Node.js</span>
-                                    <span class="tech-tag">Express</span>
-                                    <span class="tech-tag">MongoDB</span>
-                                    <span class="tech-tag">Stripe</span>
-                                </div>
-                                <div class="project-links">
-                                    <a href="https://github.com/yoonJJ/ecommerce" target="_blank" class="project-link">
-                                        <i class="icon-github"></i> GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="project-link">
-                                        <i class="icon-external"></i> Live Demo
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="subtitle">
+          <strong>좋아하니까, 즐겁게</strong>
+          <div class="logo">JOYoon</div>
         </div>
-    </section>
 
-    <!-- Blog Section -->
-    <section class="blog" id="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2>Blog</h2>
-                <p class="section-subtitle">articles you may like</p>
-            </div>
-            
-            <div class="blog-content">
-                <p>개발하면서 배운 것들과 일상의 소소한 이야기를 기록하고 있어요.<br>
-                기술적인 내용부터 개인적인 경험까지 다양한 주제로 글을 써요.</p>
-                
-                <button class="blog-link">블로그 바로가기</button>
-            </div>
-        </div>
-    </section>
+        <p class="description">
+          코드로 사용자 경험을 설계하는 웹 개발자입니다.<br>
+          반응형 디자인과 웹 표준을 기반으로 성능 최적화된 인터페이스를 구현합니다.<br>
+          최신 기술 스택을 학습하며 확장 가능한 웹 솔루션을 개발하고 있습니다.
+        </p>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact</h2>
-            </div>
-            
-            <div class="contact-content">
-                <p>똑똑, 함께 일할 똑똑한 사람을 찾고 계신가요? 메일은 언제든 환영이에요.</p>
-                
-                <div class="email-display">
-                    <span class="email-char">y</span>
-                    <span class="email-char">o</span>
-                    <span class="email-char">o</span>
-                    <span class="email-char">n</span>
-                    <span class="email-char">.</span>
-                    <span class="email-char">j</span>
-                    <span class="email-char">j</span>
-                    <span class="email-char">5</span>
-                    <span class="email-char">5</span>
-                    <span class="email-char">3</span>
-                    <span class="email-char">9</span>
-                    <span class="email-char">@</span>
-                    <span class="email-char">g</span>
-                    <span class="email-char">m</span>
-                    <span class="email-char">a</span>
-                    <span class="email-char">i</span>
-                    <span class="email-char">l</span>
-                    <span class="email-char">.</span>
-                    <span class="email-char">c</span>
-                    <span class="email-char">o</span>
-                    <span class="email-char">m</span>
-                </div>
-                
-                <div class="contact-description">
-                    <p>웹 개발에 관심이 있으시거나 함께 이야기 나누고 싶으시다면 언제든 연락해 주세요!<br>새로운 기술이나 프로젝트에 대해 이야기하는 것을 좋아해요.</p>
-                    
-                    <p>포트폴리오를 보시고 궁금한 점이나 피드백이 있으시다면 언제든지 편하게 말씀해 주세요.<br>좋은 인사이트를 주시면 정말 감사하겠습니다 :)</p>
-                </div>
-                
-                <button class="contact-button">메일 보내기</button>
-            </div>
+        <div class="scroll-indicator">
+          <span>Let's Scroll Down!</span>
+          <div class="scroll-arrow">↓</div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>Thanks to</p>
-                <p>jjyoon.dev Server Dev.</p>
-                <p>Made by <span class="highlight">yoonDev</span> with</p>
-                <p class="copyright">(C) 2025 jjyoon.dev</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Modal -->
-    <div id="aboutModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>자기소개</h2>
-            <div class="modal-body">
-                <div class="modal-section">
-                    <h3>기술 스택</h3>
-                    <div class="tech-stack">
-                        <div class="tech-category">
-                            <h4>Frontend</h4>
-                            <ul>
-                                <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                                <li>React, TypeScript</li>
-                                <li>Next.js</li>
-                                <li>Styled-components, Tailwind CSS</li>
-                            </ul>
-                        </div>
-                        <div class="tech-category">
-                            <h4>Tools & Others</h4>
-                            <ul>
-                                <li>Git, GitHub</li>
-                                <li>Adobe Photoshop, Illustrator</li>
-                                <li>Responsive Design, Web Accessibility</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="modal-section">
-                    <h3>주요 경험</h3>
-                    <ul class="experience-list">
-                        <li>반응형 웹사이트 개발 및 최적화</li>
-                        <li>사용자 인터페이스 설계 및 구현</li>
-                        <li>웹 접근성 준수 및 크로스 브라우징</li>
-                        <li>컴포넌트 기반 개발 및 재사용성 고려</li>
-                        <li>성능 최적화 및 SEO 개선</li>
-                    </ul>
-                </div>
-                
-                <div class="modal-section">
-                    <h3>학습 계획</h3>
-                    <p>현재는 React 생태계를 깊이 있게 학습하고 있으며, 향후에는 백엔드 기술과 DevOps 영역까지 확장하여 풀스택 개발자가 되는 것을 목표로 하고 있습니다. 또한 사용자 경험(UX) 디자인에 대한 이해를 높여 더 나은 웹 서비스를 만들고 싶습니다.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </section>
 
-    <script src="js/main.js"></script>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About<span class="highlight">yoon</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-image">
+          <div class="profile-image">
+            <img src="images/main_img01.jpeg" alt="Profile Image" />
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <div class="intro-header">
+            <h3>안녕하세요!</h3>
+            <h4>웹 개발자 윤정재입니다.</h4>
+            <p class="nickname">a.k.a, yoon</p>
+          </div>
+
+          <p class="main-description">즐기면 더 잘한다는 마음으로 웹 개발을 하고 있습니다.</p>
+
+          <div class="skills-section">
+            <h4>주요 역량</h4>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>HTML/CSS/JS</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>React/Next.js</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>Spring Boot</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>Git 형상관리</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>Linux 서버 배포</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon"></span>
+                <span>클라우드 인프라</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="description">HTML, CSS, JavaScript로 웹 페이지를 만들고, React/Next.js로 컴포넌트 기반 개발을 하고 있어요. Spring Boot로 백엔드도
+            만들 수 있고, Git으로 형상관리도 합니다.</p>
+
+          <p class="description">Linux 서버에 webApp배포도 할 수 있고, 클라우드 인프라 구축도 조금씩 배우고 있어요. 아직 배워야 할 게 많지만, 꾸준히 공부하면서 실력이
+            늘어가는 걸 느끼고 있어요.</p>
+
+          <div class="action-buttons">
+            <button class="read-more">자기소개 더보기</button>
+            <button class="contact-me">연락하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="frontend">Frontend</button>
+          <button class="tab-btn" data-tab="backend">Backend</button>
+          <button class="tab-btn" data-tab="fullstack">Fullstack</button>
+        </div>
+
+        <div class="tab-content">
+          <!-- Frontend Projects -->
+          <div class="tab-panel active" id="frontend">
+            <div class="project-grid">
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>Starbucks Clone</h3>
+                  <div class="project-badge">HTML/CSS/JS</div>
+                </div>
+                <p class="project-description">스타벅스 공식 웹사이트를 HTML, CSS, JavaScript로 클론 코딩한 프로젝트입니다. 인터랙티브한 UI를 구현했습니다.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Responsive Design</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/starbucks" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="https://yoonjj.github.io/starbucks/" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>커플 추억 앱</h3>
+                  <div class="project-badge">Next.js</div>
+                </div>
+                <p class="project-description">커플을 위한 D-Day, 사진 기록, 채팅, 여행 기록을 관리하는 웹 애플리케이션입니다. Next.js 15와 TypeScript로 개발했습니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">Next.js 15</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                  <span class="tech-tag">React</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/my_app" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="javascript:alert('데모 준비 중 입니다!')" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+              
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>Portfolio Website</h3>
+                  <div class="project-badge">React</div>
+                </div>
+                <p class="project-description">개인 포트폴리오 웹사이트로 React와 TypeScript를 사용하여 제작했습니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/portfolio" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="javascript:alert('데모 준비 중 입니다!')" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>GreenTrip</h3>
+                  <div class="project-badge">퍼블리싱</div>
+                </div>
+                <p class="project-description">웹에이전시 근무 중 퍼블리싱 작업을 맡았습니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://greentrip.kr" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Site
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>HappyCity 2030</h3>
+                  <div class="project-badge">퍼블리싱</div>
+                </div>
+                <p class="project-description">웹에이전시 근무 중 퍼블리싱 작업을 맡았습니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://happycity2030.co.kr" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Site
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend Projects -->
+          <div class="tab-panel" id="backend">
+            <div class="project-grid">
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>TodoList</h3>
+                  <div class="project-badge">Spring Boot</div>
+                </div>
+                <p class="project-description">Spring Boot와 JdbcTemplate, H2 인메모리 DB를 사용한 CRUD 기능이 구현된 할일 관리 웹
+                  애플리케이션입니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">Java 21</span>
+                  <span class="tech-tag">Spring Boot 3.5.x</span>
+                  <span class="tech-tag">JdbcTemplate</span>
+                  <span class="tech-tag">H2 Database</span>
+                  <span class="tech-tag">Thymeleaf</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/todoList" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="#" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>REST API Server</h3>
+                  <div class="project-badge">Spring Boot</div>
+                </div>
+                <p class="project-description">Spring Boot와 JPA를 사용한 RESTful API 서버입니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">JPA</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/rest-api" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="#" target="_blank" class="project-link">
+                    <i class="icon-external"></i> API Docs
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>Authentication Service</h3>
+                  <div class="project-badge">Node.js</div>
+                </div>
+                <p class="project-description">JWT 기반 인증 시스템을 구현한 Node.js 서비스입니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">MongoDB</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/auth-service" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="#" target="_blank" class="project-link">
+                    <i class="icon-external"></i> API Docs
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fullstack Projects -->
+          <div class="tab-panel" id="fullstack">
+            <div class="project-grid">
+              <div class="project-card featured">
+                <div class="project-header">
+                  <h3>my-app</h3>
+                  <div class="project-badge">Full Stack</div>
+                </div>
+                <p class="project-description">React와 Spring Boot를 활용한 풀스택 웹 애플리케이션입니다. 프론트엔드와 백엔드를 모두 구현했습니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/my-app" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="#" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-header">
+                  <h3>E-commerce Platform</h3>
+                  <div class="project-badge">MERN</div>
+                </div>
+                <p class="project-description">MongoDB, Express, React, Node.js를 사용한 전자상거래 플랫폼입니다.</p>
+                <div class="project-tech">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Node.js</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Stripe</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/yoonJJ/ecommerce" target="_blank" class="project-link">
+                    <i class="icon-github"></i> GitHub
+                  </a>
+                  <a href="#" target="_blank" class="project-link">
+                    <i class="icon-external"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <h2>Blog</h2>
+        <p class="section-subtitle">articles you may like</p>
+      </div>
+
+      <div class="blog-content">
+        <p>개발하면서 배운 것들과 일상의 소소한 이야기를 기록하고 있어요.<br>
+          기술적인 내용부터 개인적인 경험까지 다양한 주제로 글을 써요.</p>
+
+        <button class="blog-link">블로그 바로가기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-content">
+        <p>똑똑, 함께 일할 똑똑한 사람을 찾고 계신가요? 메일은 언제든 환영이에요.</p>
+
+        <div class="email-display">
+          <span class="email-char">y</span>
+          <span class="email-char">o</span>
+          <span class="email-char">o</span>
+          <span class="email-char">n</span>
+          <span class="email-char">.</span>
+          <span class="email-char">j</span>
+          <span class="email-char">j</span>
+          <span class="email-char">5</span>
+          <span class="email-char">5</span>
+          <span class="email-char">3</span>
+          <span class="email-char">9</span>
+          <span class="email-char">@</span>
+          <span class="email-char">g</span>
+          <span class="email-char">m</span>
+          <span class="email-char">a</span>
+          <span class="email-char">i</span>
+          <span class="email-char">l</span>
+          <span class="email-char">.</span>
+          <span class="email-char">c</span>
+          <span class="email-char">o</span>
+          <span class="email-char">m</span>
+        </div>
+
+        <div class="contact-description">
+          <p>웹 개발에 관심이 있으시거나 함께 이야기 나누고 싶으시다면 언제든 연락해 주세요!<br>새로운 기술이나 프로젝트에 대해 이야기하는 것을 좋아해요.</p>
+
+          <p>포트폴리오를 보시고 궁금한 점이나 피드백이 있으시다면 언제든지 편하게 말씀해 주세요.<br>좋은 인사이트를 주시면 정말 감사하겠습니다 :)</p>
+        </div>
+
+        <button class="contact-button">메일 보내기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>Thanks to</p>
+        <p>jjyoon.dev Server Dev.</p>
+        <p>Made by <span class="highlight">yoonDev</span> with</p>
+        <p class="copyright">(C) 2025 jjyoon.dev</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>자기소개</h2>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h3>기술 스택</h3>
+          <div class="tech-stack">
+            <div class="tech-category">
+              <h4>Frontend</h4>
+              <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>React, TypeScript</li>
+                <li>Next.js</li>
+                <li>Styled-components, Tailwind CSS</li>
+              </ul>
+            </div>
+            <div class="tech-category">
+              <h4>Tools & Others</h4>
+              <ul>
+                <li>Git, GitHub</li>
+                <li>Adobe Photoshop, Illustrator</li>
+                <li>Responsive Design, Web Accessibility</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h3>주요 경험</h3>
+          <ul class="experience-list">
+            <li>반응형 웹사이트 개발 및 최적화</li>
+            <li>사용자 인터페이스 설계 및 구현</li>
+            <li>웹 접근성 준수 및 크로스 브라우징</li>
+            <li>컴포넌트 기반 개발 및 재사용성 고려</li>
+            <li>성능 최적화 및 SEO 개선</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h3>학습 계획</h3>
+          <p>현재는 React 생태계를 깊이 있게 학습하고 있으며, 향후에는 백엔드 기술과 DevOps 영역까지 확장하여 풀스택 개발자가 되는 것을 목표로 하고 있습니다. 또한 사용자 경험(UX) 디자인에
+            대한 이해를 높여 더 나은 웹 서비스를 만들고 싶습니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>
