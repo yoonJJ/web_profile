@@ -166,12 +166,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    const blogLinkBtn = document.querySelector('.blog-link');
-    if (blogLinkBtn) {
-        blogLinkBtn.addEventListener('click', function() {
-            alert('블로그 준비 중 입니다!');
-        });
-    }
+    // const blogLinkBtn = document.querySelector('.blog-link');
+    // if (blogLinkBtn) {
+    //     blogLinkBtn.addEventListener('click', function() {
+    //         alert('블로그 준비 중 입니다!');
+    //     });
+    // }
     
     const contactBtn = document.querySelector('.contact-button');
     if (contactBtn) {
